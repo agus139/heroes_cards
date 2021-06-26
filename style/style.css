@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 38px;
+    background-color: #1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.container-h1{
+    position: relative;
+    height: 101px;
+    width: 100%;
+    background-color: #00669F;
+
+}
+
+h1{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    top: 25px;
+    left: 20px;
+}
+
+.card-container{
+    position: relative;
+    top:40px;
+
+
+}
+
+.fondo{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    left: 80px;
+}
+
+.fondo1{
+    left: 520px;
+
+}
+
+.fondo2{
+    left: 960px;
+}
+
+.corazon{
+    position: absolute;
+    left: 95px;
+    top: 15px;
+}
+
+.corazon1{
+    left: 535px;
+}
+
+.corazon2{
+    left: 975px;
+}
+
+.perfil{
+    position: absolute;
+    left: 170px;
+    top: 150px;
+    border-radius: 60px;
+}
+
+.perfil1{
+    left: 610px;
+}
+
+.perfil2{
+    left: 1050px;
+}
+
+.p-container{
+    position: absolute;
+    left: 81px;
+    top:190px;
+    width: 298px;
+    height: 336px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+
+.p-cont2{
+    left: 520px;
+}
+
+.p-cont3{
+    left: 960px;
+}
+
+.h2-batman{
+    position: absolute;
+    top: 280px;
+    left: 180px;
+}
+
+.h2-2{
+    left: 600px;
+}
+
+.h2-3{
+    left: 1060px;
+}
+
+
+.p-batman{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 20px;
+/*     margin: 80px 0px 0px 15px;
+ */    width: 267px;
+    height: 113px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.boton{
+    position: absolute;
+    left: 162px;
+    top: 470px;
+    width: 128.78px;
+    height: 40px;
+    background-color: #00669F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.boton1{
+    left: 610px;
+}
+
+.boton2{
+    left: 1045px;
+}
+
+
+footer{
+    position: relative;
+    top:700px;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+
