@@ -7,7 +7,7 @@ header{
     position: fixed;
     z-index: 1;
     width: 100%;
-    margin-top: -230px;
+    margin-top: -200px;
 }
 
 .header-container{
@@ -28,6 +28,7 @@ header{
     height: 101px;
     width: 100%;
     background-color: #00669F;
+
 }
 
 h1{
@@ -53,6 +54,7 @@ h1{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    text-decoration: none;
 }
 
 .a-menu:link {
@@ -74,90 +76,69 @@ h1{
     margin: 10px 20px 0px 0px;
 }
 
-.card-container{
+.form-container{
+    color: #5d6063;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.speaker-form{
+    border-radius: 3px;
+    width: 30%;
+    padding: 50px;
+    margin: 0 0 40px 0; 
+}
+
+.speaker-form-header{
+    width: 80%;
+    font-size: 30px;
+}
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label{
+    margin: 15px 0;
+}
+
+input{
+    height: 20px;
+}
+
+.button-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    margin-top: 230px;
 }
 
-.card{
-    margin: 40px 20px;
-    max-width: 300px;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.card-header{
-    position: relative;
-}
-
-.corazon{
-    position: absolute;
-    top: 15px;
-    left: 20px;
-}
-
-.card-body{
-    padding: 50px 13px 18px;
-    color: #333333;
-    background: #F3F3F3;
-    position: relative;
-    min-height: 330px;
-}
-
-.perfil{
-    width: 122px;
-    height: 122px;
-    border-radius: 50%;
-    position: absolute;
-    top: -60px;
-    left: 90px;
-    box-shadow: 2px 2px 5px grey;
-    }
-
-
-
-.h2-batman{
-    margin: 40px 0px 20px;
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-}
-
-.p-batman{
-    padding: 5px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.boton{
+.b-resetear, .b-enviar{
     width: 128px;
     height: 40px;
-    background-color: #00669F;
+    background-color: #1CD1B0;
     border: none;
     border-radius: 5px;
     color: white;
-    margin: 10px 70px;
+    margin: 30px 10px 0px 0px;
     cursor: pointer;
 }
 
-.boton:hover{
+.b-resetear{
+    margin-left: 50px;
+    background-color: #888888;
+}
+
+.form-row button:hover{
     background-color: #41a2da;
     box-shadow: 2px 2px 5px grey;
 }
 
 
-footer{
-    position: relative;
-    margin-top: 40px;
-    text-align: center;
-    background-color: #00669F;
-    color: white;
-    height: 30px;
-    padding-top: 10px;
-}
 
